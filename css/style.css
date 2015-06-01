@@ -1,0 +1,108 @@
+/* body {
+   
+    color: #222222;
+    font-size: 1em;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+*/
+
+
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+    /* Type subheads */
+    color: orange;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://i.imgur.com/lvXbgcg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+    height: 200px;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-size: 9rem;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.content-footer > p {
+ color: white;
+}
+
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #DAA520;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.content-footer > p > a,
+.social > li > a {
+    color: white;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 1.2rem 0;
+        height: 130px;
+    }
+    .masthead-heading {
+        font-size: 4rem;
+    }
+    .social > li > a {
+    font-size: 1rem;
+    }
+    .introduction-section > h1,
+    .location-section > h1,
+    .questions-section > h1 {
+    /* Type subheads */
+    color: orange;
+    font-size: 1.4rem;
+    font-family: 'Lobster', cursive;
+    }
+    p {
+    font-size: 1rem;    
+    }
+}
